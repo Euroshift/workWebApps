@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pnPQg6dvWJKelvx2dqu2pTt+tOvitJFULgGNlDNUsy5doCiKA6wPtxvbK/QN64a3TqeQt02Wfwnr+ExaC9vXGw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\GunRangeMgmtSys\\GunRangeMgmtSys.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JBitar\\.nuget\\packages\\csvhelper\\31.0.2\\csvhelper.31.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

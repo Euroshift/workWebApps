@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+
+    <title>Gun Range</title>
+
+</head>
+<body>
+
+    <div class="content-container">
+        <div class="bodyTitle">
+            <h2 style="text-align: center; font-family: Arial, sans-serif; font-weight: bold; margin-top:20px; margin-bottom: 20px; font-size: 32px; padding: 10px 20px; border-radius: 5px; box-shadow: 2px 2px 4px rgba(0,0,0,0.1)">Gun Range Management System</h2>
+        </div>
+        <form id="searchForm" asp-action="Index" method="get">
+            <div class="form-group search-input">
+
+                <label for="searchQuery">Search:</label>
+                <div class="input-group">
+                    <div class="search-field">
+                        <input type="text" class="form-control" id="searchQuery" name="searchQuery" placeholder="Enter name or ID">
+                    </div>
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-primary" onclick="openPopup()">Search</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>CID</th>
+                    <th>Team</th>
+                    <th>Division</th>
+                    <th>Gun Information</th>
+                    <th>Qualifications/Training</th>
+                    <th>Additional Training Type</th>
+                    <th>Additional Training Hours</th>
+                    <th>Retired</th>
+                    <th>Inactive</th>
+                    <th>Officer ID</th>
+                    <th>Issued Equipment</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var shooter in Model)
+                {
+                    <tr>
+                        <td>@shooter.Name</td>
+                        <td>@shooter.CID</td>
+                        <td>@shooter.Team</td>
+                        <td>@shooter.Division</td>
+                        <td>@shooter.GunInformation</td>
+                        <td>@shooter.QualificationsTraining</td>
+                        <td>@shooter.AdditionalTrainingType</td>
+                        <td>@shooter.AdditionalTrainingHours</td>
+                        <td>@(shooter.IsRetired ? "Yes" : "No")</td>
+                        <td>@(shooter.IsActive ? "Yes" : "No")</td>
+                        <td>@shooter.OfficerId</td>
+                        <td>@shooter.IssuedEquipment</td>
+
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+<div class="content-container2">
+
+
+
+    <h2 style="text-align: center; font-family: Arial, sans-serif; font-weight: bold; margin-top:10px; margin-bottom: 5px; font-size: 32px; padding: 10px 10px; border-radius: 5px; box-shadow: 2px 2px 4px rgba(0,0,0,0.1)">Add Shooter</h2>
+
+    <form asp-action="AddShooter" method="post">
+        <div class="input-container">
+            <div class="input-group">
+                <label for="Name">Name:</label>
+                <input type="text" id="Name" name="Name" required>
+            </div>
+            <div class="input-group">
+                <label for="CID">CID:</label>
+                <input type="text" id="CID" name="CID" required>
+            </div>
+            <div class="input-group">
+                <label for="Team">Team:</label>
+                <input type="text" id="Team" name="Team" required>
+            </div>
+            <div class="input-group">
+                <label for="Division">Division:</label>
+                <input type="text" id="Division" name="Division" required>
+            </div>
+        </div>
+
+        <div class="input-container">
+            <div class="input-group">
+                <label for="GunInformation">Gun Information(Model):</label>
+                <input type="text" id="GunInformation" name="GunInformation" required>
+            </div>
+            <div class="input-group">
+                <label for="QualificationsTraining">Qualifications/Training:</label>
+                <input type="text" id="QualificationsTraining" name="QualificationsTraining" required>
+            </div>
+            <div class="input-group">
+                <label for="AdditionalTrainingType">Additional Training Type:</label>
+                <input type="text" id="AdditionalTrainingType" name="AdditionalTrainingType" required>
+            </div>
+            <div class="input-group">
+                <label for="AdditionalTrainingHours">Additional Training Hours:</label>
+                <input type="number" id="AdditionalTrainingHours" name="AdditionalTrainingHours" required>
+            </div>
+        </div>
+
+        <div class="radio-group">
+            <label style="font-size: 18px;">Retired:</label>
+            <input type="radio" id="retiredYes" name="IsRetired" value="true" required>
+            <label for="retiredYes">Yes</label>
+            <input type="radio" id="retiredNo" name="IsRetired" value="false" required>
+            <label for="retiredNo">No</label>
+        </div>
+
+        <div class="radio-group">
+            <label style="font-size: 18px;">Inactive:</label>
+            <input type="radio" id="inactiveYes" name="IsActive" value="true" required>
+            <label for="inactiveYes">Yes</label>
+            <input type="radio" id="inactiveNo" name="IsActive" value="false" required>
+            <label for="inactiveNo">No</label>
+        </div>
+
+
+        <h2 style="text-align: center; font-family: Arial, sans-serif; font-weight: bold; margin-top:10px; margin-bottom: 5px; font-size: 32px; padding: 10px 10px; border-radius: 5px; box-shadow: 2px 2px 4px rgba(0,0,0,0.1)">Officer ID & Inventory Issued</h2>
+
+        <div class="input-container">
+            <div class="input-group">
+                <label for="OfficerId">Officer ID:</label>
+                <input type="text" id="OfficerId" name="OfficerId" required>
+            </div>
+            <div class="input-group">
+                <label for="IssuedEquipment">Issued Equipment:</label>
+                <input type="text" id="IssuedEquipment" name="IssuedEquipment" required>
+            </div>
+        </div>
+
+        <button class="btn btn-primary" type="submit">Add Shooter</button>
+    </form>
+
+    @{
+        ViewData["Title"] = "Clear Database";
+    }
+
+    <h2>Clear Database</h2>
+
+    <p>Click the button below to clear the entire database CSV:</p>
+
+    <form asp-controller="Home" asp-action="ClearDatabase" method="post">
+        <button class="btn btn-danger rounded-pill px-3" type="submit">Clear Database</button>
+    </form>
+
+    @Html.ActionLink("Download CSV", "DownloadCSV", null, new { @class = "btn btn-primary" })
+</div>
+
+<!-- build a modal window that pops up with the search results-->
