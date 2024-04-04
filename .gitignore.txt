@@ -1,0 +1,16 @@
+# Ignore compiled binaries
+*.exe
+*.dll
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore directories containing build artifacts
+bin/
+obj/
+
+# Ignore Visual Studio temporary files
+.vs/
