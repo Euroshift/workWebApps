@@ -9,6 +9,22 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body>
+
+    <form id="searchForm" asp-action="Index" method="get">
+        <div class="form-group search-input">
+
+            <label for="searchQuery">Search:</label>
+            <div class="input-group">
+                <div class="search-field">
+                    <input type="text" class="form-control" id="searchQuery" name="searchQuery" placeholder="Enter name or ID">
+                </div>
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary" onclick="openPopup()">Search</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
     <div class="content-container">
         <!-- Your existing content for displaying inventory items -->
     </div>
