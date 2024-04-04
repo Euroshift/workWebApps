@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pnPQg6dvWJKelvx2dqu2pTt+tOvitJFULgGNlDNUsy5doCiKA6wPtxvbK/QN64a3TqeQt02Wfwnr+ExaC9vXGw==",
+  "dgSpecHash": "rYyelPpRm96GSJHGmUpowFcmXNICcpS4t+2SVreAQzZ/m9W3BNe67pFeCIIIUVZyJ+MPao6wEa2e6SoDCvIsTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\GunRangeMgmtSys\\GunRangeMgmtSys.csproj",
+  "projectFilePath": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\GunRangeMgmtSys.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JBitar\\.nuget\\packages\\csvhelper\\31.0.2\\csvhelper.31.0.2.nupkg.sha512"
   ],

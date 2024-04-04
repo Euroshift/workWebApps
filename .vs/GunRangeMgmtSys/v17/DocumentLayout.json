@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\",
+  "WorkspaceRootPath": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\gunrangemgmtsys\\gunrangemgmtsys\\views\\home\\inventory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\workwebapps\\.netwebapp\\gunrangemgmtsys\\views\\home\\inventory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|solutionrelative:gunrangemgmtsys\\views\\home\\inventory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\gunrangemgmtsys\\gunrangemgmtsys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\workwebapps\\.netwebapp\\gunrangemgmtsys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|solutionrelative:gunrangemgmtsys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\gunrangemgmtsys\\gunrangemgmtsys\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\workwebapps\\.netwebapp\\gunrangemgmtsys\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|solutionrelative:gunrangemgmtsys\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\gunrangemgmtsys\\gunrangemgmtsys\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\workwebapps\\.netwebapp\\gunrangemgmtsys\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|solutionrelative:gunrangemgmtsys\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\gunrangemgmtsys\\gunrangemgmtsys\\models\\shooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\workwebapps\\.netwebapp\\gunrangemgmtsys\\models\\shooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|solutionrelative:gunrangemgmtsys\\models\\shooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\gunrangemgmtsys\\gunrangemgmtsys\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\workwebapps\\.netwebapp\\gunrangemgmtsys\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|solutionrelative:gunrangemgmtsys\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
@@ -46,9 +46,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Inventory.cshtml",
-              "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\GunRangeMgmtSys\\Views\\Home\\Inventory.cshtml",
+              "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Views\\Home\\Inventory.cshtml",
               "RelativeDocumentMoniker": "GunRangeMgmtSys\\Views\\Home\\Inventory.cshtml",
-              "ToolTip": "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\GunRangeMgmtSys\\Views\\Home\\Inventory.cshtml",
+              "ToolTip": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Views\\Home\\Inventory.cshtml",
               "RelativeToolTip": "GunRangeMgmtSys\\Views\\Home\\Inventory.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -59,9 +59,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\GunRangeMgmtSys\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "GunRangeMgmtSys\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\GunRangeMgmtSys\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\wwwroot\\css\\site.css",
               "RelativeToolTip": "GunRangeMgmtSys\\wwwroot\\css\\site.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAIUAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -71,9 +71,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\GunRangeMgmtSys\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "GunRangeMgmtSys\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\GunRangeMgmtSys\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "GunRangeMgmtSys\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAABUAAAAAAAAAAAAAAC8AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -83,9 +83,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Shooter.cs",
-              "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\GunRangeMgmtSys\\Models\\Shooter.cs",
+              "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Models\\Shooter.cs",
               "RelativeDocumentMoniker": "GunRangeMgmtSys\\Models\\Shooter.cs",
-              "ToolTip": "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\GunRangeMgmtSys\\Models\\Shooter.cs",
+              "ToolTip": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Models\\Shooter.cs",
               "RelativeToolTip": "GunRangeMgmtSys\\Models\\Shooter.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -95,9 +95,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\GunRangeMgmtSys\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "GunRangeMgmtSys\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\GunRangeMgmtSys\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "GunRangeMgmtSys\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAACcAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -108,9 +108,9 @@
               "DocumentIndex": 6,
               "Title": "shooterData.csv",
               "DocumentMoniker": "C:\\Users\\JBitar\\Desktop\\ASP.NETAppAsset -GunRange\\shooterData.csv",
-              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\ASP.NETAppAsset -GunRange\\shooterData.csv",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\ASP.NETAppAsset -GunRange\\shooterData.csv",
               "ToolTip": "C:\\Users\\JBitar\\Desktop\\ASP.NETAppAsset -GunRange\\shooterData.csv",
-              "RelativeToolTip": "..\\..\\..\\Desktop\\ASP.NETAppAsset -GunRange\\shooterData.csv",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\ASP.NETAppAsset -GunRange\\shooterData.csv",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
               "WhenOpened": "2024-03-28T17:24:04.483Z"
@@ -119,9 +119,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\GunRangeMgmtSys\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "GunRangeMgmtSys\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\GunRangeMgmtSys\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Controllers\\HomeController.cs",
               "RelativeToolTip": "GunRangeMgmtSys\\Controllers\\HomeController.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAIwDkAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -132,9 +132,9 @@
               "DocumentIndex": 7,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\JBitar\\Desktop\\ASP.NETAppAsset -GunRange\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\ASP.NETAppAsset -GunRange\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\ASP.NETAppAsset -GunRange\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\JBitar\\Desktop\\ASP.NETAppAsset -GunRange\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "..\\..\\..\\Desktop\\ASP.NETAppAsset -GunRange\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\ASP.NETAppAsset -GunRange\\Controllers\\HomeController.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAAAA0AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T17:22:03.577Z"

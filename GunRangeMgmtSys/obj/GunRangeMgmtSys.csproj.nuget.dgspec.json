@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\GunRangeMgmtSys\\GunRangeMgmtSys.csproj": {}
+    "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\GunRangeMgmtSys.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\GunRangeMgmtSys\\GunRangeMgmtSys.csproj": {
+    "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\GunRangeMgmtSys.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\GunRangeMgmtSys\\GunRangeMgmtSys.csproj",
+        "projectUniqueName": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\GunRangeMgmtSys.csproj",
         "projectName": "GunRangeMgmtSys",
-        "projectPath": "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\GunRangeMgmtSys\\GunRangeMgmtSys.csproj",
+        "projectPath": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\GunRangeMgmtSys.csproj",
         "packagesPath": "C:\\Users\\JBitar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JBitar\\source\\repos\\GunRangeMgmtSys\\GunRangeMgmtSys\\obj\\",
+        "outputPath": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
