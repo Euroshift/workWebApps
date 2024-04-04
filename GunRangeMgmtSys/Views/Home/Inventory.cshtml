@@ -1,21 +1,73 @@
-﻿namespace GunRangeMgmtSys.Views.Home
-{
-    public class Inventory
-    {
+﻿@model List<GunRangeMgmtSys.Models.Invitem>
+
 @{
     ViewData["Title"] = "Issued Inventory";
 }
 
-<h1>Issued Inventory</h1>
-
-<form asp-action="AddInventory" method="post">
-    <div class="form-group">
-        <label for="itemName">Item Name</label>
-        <input type="text" class="form-control" id="itemName" name="itemName" required>
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="content-container">
+        <!-- Your existing content for displaying inventory items -->
     </div>
 
-    <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+    <div class="content-container2">
+        <!-- Form for adding inventory items -->
+        <h2>Inventory Issued</h2>
+        @if (Model != null)
+        {
+            <table>
+                <thead>
+                    <tr>
+                        <th>Officer ID</th>
+                        <th>Issued Equipment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var invitem in Model)
+                    {
+                        <tr>
 
-    }
-}
+                        <td>@invitem.OfficerId</td>
+                        <td>@invitem.IssuedEquipment</td>
+
+
+                    </tr>
+                }
+            </tbody>
+            </table>
+        }
+        else
+        {
+            <p>No Data Available ---</p>
+        }
+
+        <form asp-controller="Inventory" asp-action="AddInvitem" method="post">
+            <div class="input-container">
+                <div class="input-group">
+                    <label for="OfficerId">Officer ID:</label>
+                    <input type="text" id="OfficerId" name="OfficerId" required>
+                </div>
+                <div class="input-group">
+                    <label for="IssuedEquipment">Issued Equipment:</label>
+                    <input type="text" id="IssuedEquipment" name="IssuedEquipment" required>
+                </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Add Issued Equipment</button>
+
+        </form>
+
+        <!-- Clear database form -->
+        <h2>Clear Database</h2>
+        <p>Click the button below to clear the entire database CSV:</p>
+        <form asp-controller="Inventory" asp-action="ClearDatabase" method="post">
+            <button class="btn btn-danger rounded-pill px-3" type="submit">Clear Database</button>
+        </form>
+
+        <!-- Download CSV link -->
+        @Html.ActionLink("Download CSV", "DownloadCSV", "Inventory", null, new { @class = "btn btn-primary" })
+    </div>
+</body>
+</html>
