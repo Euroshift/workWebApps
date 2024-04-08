@@ -1,9 +1,5 @@
 ﻿@model List<GunRangeMgmtSys.Models.Invitem>
 
-@{
-    ViewData["Title"] = "Issued Inventory";
-}
-
 <html>
 <head>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
@@ -27,11 +23,7 @@
 
         <!-- Form for adding inventory items -->
         <h2>Inventory Issued</h2>
-        @if (Model == null || !Model.Any())
-        {
-            <p>No Data Available ---</p>
-        }
-        else
+        @if (Model != null && Model.Any())
         {
             <table>
                 <thead>
@@ -51,8 +43,10 @@
                 </tbody>
             </table>
         }
-
-
+        else
+        {
+        <p>No Data Available ---</p>
+        }
 
         <form asp-controller="Inventory" asp-action="AddInvitem" method="post">
             <div class="input-container">
