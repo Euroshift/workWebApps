@@ -151,6 +151,10 @@
         <button class="btn btn-primary" type="submit">Add Shooter</button>
     </form>
 
+
+    @Html.ActionLink("Download CSV", "DownloadCSV", "Home", null, new { @class = "btn btn-primary download-button", @style = "margin-left: 0px;" })
+
+
     @{
         ViewData["Title"] = "Clear Database";
     }
@@ -163,7 +167,7 @@
         <button class="btn btn-danger rounded-pill px-3" type="submit">Clear Database</button>
     </form>
 
-    @Html.ActionLink("Download CSV", "DownloadCSV", null, new { @class = "btn btn-primary" })
+
 </div>
 
 <!-- build a modal window that pops up with the search results-->

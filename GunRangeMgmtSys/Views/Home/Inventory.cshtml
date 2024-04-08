@@ -68,6 +68,8 @@
             <button class="btn btn-primary" type="submit">Add Issued Equipment</button>
 
         </form>
+        <!-- Download CSV link -->
+        @Html.ActionLink("Download CSV", "DownloadCSV", "Inventory", null, new { @class = "btn btn-primary download-button", @style = "margin-left: 0px;" })
 
         <!-- Clear database form -->
         <h2>Clear Database</h2>
@@ -75,9 +77,6 @@
         <form asp-controller="Inventory" asp-action="ClearDatabase" method="post">
             <button class="btn btn-danger rounded-pill px-3" type="submit">Clear Database</button>
         </form>
-
-        <!-- Download CSV link -->
-        @Html.ActionLink("Download CSV", "DownloadCSV", "Inventory", null, new { @class = "btn btn-primary download-button" })
     </div>
 </body>
 </html>
