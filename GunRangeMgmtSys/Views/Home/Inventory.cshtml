@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body>
-
-    <form id="searchForm" asp-action="Index" method="get">
+    <div class="content-container2">
+    <form id="searchForm" asp-action="Inventory" method="get">
         <div class="form-group search-input">
 
             <label for="searchQuery">Search:</label>
             <div class="input-group">
                 <div class="search-field">
-                    <input type="text" class="form-control" id="searchQuery" name="searchQuery" placeholder="Enter name or ID">
+                    <input type="text" class="form-control" id="searchQuery" name="searchQuery" placeholder="Enter Officer ID">
                 </div>
                 <div class="input-group-append">
                     <button type="submit" class="btn btn-primary" onclick="openPopup()">Search</button>
@@ -25,14 +25,13 @@
         </div>
     </form>
 
-    <div class="content-container">
-        <!-- Your existing content for displaying inventory items -->
-    </div>
-
-    <div class="content-container2">
         <!-- Form for adding inventory items -->
         <h2>Inventory Issued</h2>
-        @if (Model != null)
+        @if (Model == null || !Model.Any())
+        {
+            <p>No Data Available ---</p>
+        }
+        else
         {
             <table>
                 <thead>
@@ -45,20 +44,15 @@
                     @foreach (var invitem in Model)
                     {
                         <tr>
-
-                        <td>@invitem.OfficerId</td>
-                        <td>@invitem.IssuedEquipment</td>
-
-
-                    </tr>
-                }
-            </tbody>
+                            <td>@invitem.OfficerId</td>
+                            <td>@invitem.IssuedEquipment</td>
+                        </tr>
+                    }
+                </tbody>
             </table>
         }
-        else
-        {
-            <p>No Data Available ---</p>
-        }
+
+
 
         <form asp-controller="Inventory" asp-action="AddInvitem" method="post">
             <div class="input-container">
