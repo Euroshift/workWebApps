@@ -1,6 +1,2 @@
-Name,CID,Team,Division,GunInformation,QualificationsTraining,AdditionalTrainingType,AdditionalTrainingHours,IsRetired,IsActive,OfficerId,IssuedEquipment
-John,123,123,123,123,123,123,123,False,False,5,qweasd
-asf,adsfasf,asdfasdf,sadfasdfsaf,sf,asdf,asfd,123,False,False,14,sdf
-sdfsadf,sadfsdaf,sdfsdfa,asdf,sadf,sadf,asdf,123,False,False,123,asdf
-Jack Test1,"CID Test 1 ",Blue Team test 1,Test Div 1,"Test Gun ",Test Quali,Test Added type,1231337,False,True,1234123,Test Red Dot
-asdf,asdf,asdf,sadfasdf,sdaf,asdf,asdf,123,False,True,12321,asdf
+Name,CID,Team,Division,GunInformation,QualificationsTraining,AdditionalTrainingType,AdditionalTrainingHours,IsRetired,IsActive,OfficerId,IssuedEquipment,LastRangeDate
+Tito Ralph,123456,Jollybee,RedRibbon,Glock,"Rifle, CQB",Sidearm,40,False,False,123123,"red dot, extended mag",2023-12-15

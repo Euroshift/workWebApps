@@ -46,6 +46,7 @@
                     <th>Inactive</th>
                     <th>Officer ID</th>
                     <th>Issued Equipment</th>
+                    <th>Last Range Date</th>
                 </tr>
             </thead>
             <tbody>
@@ -64,6 +65,7 @@
                         <td>@(shooter.IsActive ? "Yes" : "No")</td>
                         <td>@shooter.OfficerId</td>
                         <td>@shooter.IssuedEquipment</td>
+                        <td>@shooter.LastRangeDate</td>
 
 
                     </tr>
@@ -133,6 +135,11 @@
             <input type="radio" id="inactiveNo" name="IsActive" value="false" required>
             <label for="inactiveNo">No</label>
         </div>
+
+            <div class="input-date">
+                <label for="LastRangeDate">Last Range Date:</label>
+                <input type="date" id="LastRangeDate" name="LastRangeDate" required>
+            </div>
 
 
         <h2 style="text-align: center; font-family: Arial, sans-serif; font-weight: bold; margin-top:10px; margin-bottom: 5px; font-size: 32px; padding: 10px 10px; border-radius: 5px; box-shadow: 2px 2px 4px rgba(0,0,0,0.1)">Officer ID & Inventory Issued</h2>

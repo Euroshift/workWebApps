@@ -23,6 +23,26 @@ namespace GunRangeMgmtSys.Controllers
             return View(shooters);
         }
 
+        public IActionResult RangeCompliance(string searchQuery)
+        {
+            var shooters = LoadShootersFromCSV();
+
+            if (!string.IsNullOrEmpty(searchQuery))
+            {
+                shooters = shooters.Where(s => s.Name.Contains(searchQuery) || s.OfficerId.ToString().Contains(searchQuery)).ToList();
+            }
+
+            // Create a new list with only the required fields (Name, OfficerID, LastRangeDate)
+            var rangeComplianceData = shooters.Select(s => new Rangecomp
+            {
+                Name = s.Name,
+                OfficerId = s.OfficerId,
+                LastRangeDate = s.LastRangeDate
+            }).ToList();
+
+            return View(rangeComplianceData);
+        }
+
         [HttpPost]
         public IActionResult AddShooter(Shooter shooter)
         {
@@ -32,17 +52,13 @@ namespace GunRangeMgmtSys.Controllers
             return RedirectToAction("Index");
         }
 
-        public IActionResult Inventory ()
+        public IActionResult Inventory()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult AddInventory(string itemName)
-        {
 
-            return RedirectToAction("Inventory");
-        }
         public IActionResult ClearDatabase()
         {
             if (System.IO.File.Exists(_csvFilePath))
