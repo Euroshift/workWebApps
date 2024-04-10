@@ -1,10 +1,6 @@
-﻿using GunRangeMgmtSys.Models;
+﻿using CsvHelper;
+using GunRangeMgmtSys.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.IO;
-using CsvHelper;
-using System.Linq;
-using System.Formats.Asn1;
 namespace GunRangeMgmtSys.Controllers
 {
     public class RangecomplianceController : Controller

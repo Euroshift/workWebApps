@@ -1,11 +1,7 @@
-﻿using GunRangeMgmtSys.Models;
+﻿using CsvHelper;
+using GunRangeMgmtSys.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.IO;
-using CsvHelper;
-using System.Linq;
 using System.Globalization;
-using CsvHelper.Configuration;
 
 namespace GunRangeMgmtSys.Controllers
 {
@@ -50,12 +46,6 @@ namespace GunRangeMgmtSys.Controllers
             List<Invitem> invitems = new List<Invitem>();
             if (System.IO.File.Exists(_csvFilePath))
             {
-                //var config = new CsvConfiguration(CultureInfo.InvariantCulture)
-                //{
-                //    // Ignore header validation
-                //    HeaderValidated = null,
-                //    MissingFieldFound = null
-                //};
 
                 using (var reader = new StreamReader(_csvFilePath))
                 using (var csv = new CsvReader(reader, System.Globalization.CultureInfo.InvariantCulture))

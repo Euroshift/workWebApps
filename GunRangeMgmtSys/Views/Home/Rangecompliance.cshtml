@@ -38,14 +38,12 @@
             <tbody>
                 @foreach (var shooter in Model)
                 {
-                    // Convert the LastRangeDate string to DateTime
                     DateTime lastRangeDate;
                     if (DateTime.TryParse(shooter.LastRangeDate, out lastRangeDate))
                     {
-                        // Calculate the difference in days between today and the LastRangeDate
+                        
                         var daysDifference = (DateTime.Now - lastRangeDate).Days;
-
-                        // Define a CSS class based on the condition
+         
                         var cssClass = daysDifference > 90 ? "highlight-red" : "";
 
                         <tr>
@@ -56,7 +54,6 @@
                     }
                     else
                     {
-                        // Handle invalid LastRangeDate format
                         <tr>
                             <td colspan="3">Invalid date format</td>
                         </tr>
