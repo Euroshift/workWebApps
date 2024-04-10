@@ -160,3 +160,13 @@ table {
             color: #fff;
             border-color: #007bff;
         }
+
+        .download-button {
+            margin-right: 5px; /* Adjust the margin as needed */
+            margin: 12px;
+        }
+
+.highlight-red {
+    background-color: rgba(255, 0, 0, 0.5); 
+    color: white; 
+}

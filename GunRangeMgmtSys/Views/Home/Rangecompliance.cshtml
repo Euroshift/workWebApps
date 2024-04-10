@@ -1,0 +1,83 @@
+﻿@model List<Rangecomp>
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+
+    <title>Range Compliance</title>
+
+</head>
+<body>
+    <div class="content-container">
+        <form id="searchForm" asp-action="RangeCompliance" method="get">
+            <div class="form-group search-input">
+                <label for="searchQuery">Search:</label>
+                <div class="input-group">
+                    <div class="search-field">
+                        <input type="text" class="form-control" id="searchQuery" name="searchQuery" placeholder="Enter name or ID">
+                    </div>
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Officer ID</th>
+                    <th>Last Range Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var shooter in Model)
+                {
+                    DateTime lastRangeDate;
+                    if (DateTime.TryParse(shooter.LastRangeDate, out lastRangeDate))
+                    {
+                        
+                        var daysDifference = (DateTime.Now - lastRangeDate).Days;
+         
+                        var cssClass = daysDifference > 90 ? "highlight-red" : "";
+
+                        <tr>
+                            <td>@shooter.Name</td>
+                            <td>@shooter.OfficerId</td>
+                            <td class="@cssClass">@lastRangeDate.ToShortDateString()</td>
+                        </tr>
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="3">Invalid date format</td>
+                        </tr>
+                    }
+                }
+
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+<div class="content-container2">
+
+
+
+    <h2 style="text-align: center; font-family: Arial, sans-serif; font-weight: bold; margin-top:10px; margin-bottom: 5px; font-size: 32px; padding: 10px 10px; border-radius: 5px; box-shadow: 2px 2px 4px rgba(0,0,0,0.1)">Search Gun Range Dates</h2>
+
+
+
+    @Html.ActionLink("Download CSV", "DownloadCSV", "Home", null, new { @class = "btn btn-primary download-button", @style = "margin-left: 0px;" })
+
+
+
+
+</div>
+
+<!-- build a modal window that pops up with the search results-->
