@@ -50,22 +50,34 @@ namespace GunRangeMgmtSys.Controllers
             List<Invitem> invitems = new List<Invitem>();
             if (System.IO.File.Exists(_csvFilePath))
             {
-                var config = new CsvConfiguration(CultureInfo.InvariantCulture)
-                {
-                    // Ignore header validation
-                    HeaderValidated = null,
-                    MissingFieldFound = null
-                };
+                //var config = new CsvConfiguration(CultureInfo.InvariantCulture)
+                //{
+                //    // Ignore header validation
+                //    HeaderValidated = null,
+                //    MissingFieldFound = null
+                //};
 
                 using (var reader = new StreamReader(_csvFilePath))
-                using (var csv = new CsvReader(reader, config))
+                using (var csv = new CsvReader(reader, System.Globalization.CultureInfo.InvariantCulture))
                 {
                     invitems = csv.GetRecords<Invitem>().ToList();
                 }
             }
             return invitems;
         }
-
+        private List<Shooter> LoadShootersFromCSV()
+        {
+            List<Shooter> shooters = new List<Shooter>();
+            if (System.IO.File.Exists(_csvFilePath))
+            {
+                using (var reader = new StreamReader(_csvFilePath))
+                using (var csv = new CsvReader(reader, System.Globalization.CultureInfo.InvariantCulture))
+                {
+                    shooters = csv.GetRecords<Shooter>().ToList();
+                }
+            }
+            return shooters;
+        }
         private void SaveInvitemsToCSV(List<Invitem> invitems)
         {
             using (var writer = new StreamWriter(_csvFilePath, append: false))

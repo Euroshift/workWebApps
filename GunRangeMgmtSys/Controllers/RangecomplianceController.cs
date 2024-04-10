@@ -11,17 +11,6 @@ namespace GunRangeMgmtSys.Controllers
     {
         private readonly string _csvFilePath = "shooterData.csv";
 
-        //public IActionResult Index(string searchQuery)
-        //{
-        //    var shooters = LoadShootersFromCSV();
-
-        //    if (!string.IsNullOrEmpty(searchQuery))
-        //    {
-        //        shooters = shooters.Where(s => s.Name.Contains(searchQuery) || s.OfficerId.ToString().Contains(searchQuery)).ToList();
-        //    }
-
-        //    return View(shooters);
-        //}
 
         [HttpPost]
         private List<Rangecomp> LoadShootersFromCSV()

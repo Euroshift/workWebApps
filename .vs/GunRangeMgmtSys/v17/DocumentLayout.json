@@ -3,23 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\workwebapps\\.netwebapp\\gunrangemgmtsys\\views\\home\\rangecompliance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|solutionrelative:gunrangemgmtsys\\views\\home\\rangecompliance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\workwebapps\\.netwebapp\\gunrangemgmtsys\\views\\home\\inventory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|solutionrelative:gunrangemgmtsys\\views\\home\\inventory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\workwebapps\\.netwebapp\\gunrangemgmtsys\\models\\invitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|solutionrelative:gunrangemgmtsys\\models\\invitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\workwebapps\\.netwebapp\\gunrangemgmtsys\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|solutionrelative:gunrangemgmtsys\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\workwebapps\\.netwebapp\\gunrangemgmtsys\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|solutionrelative:gunrangemgmtsys\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\workwebapps\\.netwebapp\\gunrangemgmtsys\\models\\rangecomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|solutionrelative:gunrangemgmtsys\\models\\rangecomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\workwebapps\\.netwebapp\\gunrangemgmtsys\\controllers\\rangecompliancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|solutionrelative:gunrangemgmtsys\\controllers\\rangecompliancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JBitar\\Desktop\\ASP.NETAppAsset -GunRange\\shooterData.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\workwebapps\\.netwebapp\\gunrangemgmtsys\\models\\rangecomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|solutionrelative:gunrangemgmtsys\\models\\rangecomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\workwebapps\\.netwebapp\\gunrangemgmtsys\\models\\shooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|solutionrelative:gunrangemgmtsys\\models\\shooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\workwebapps\\.netwebapp\\gunrangemgmtsys\\inventorydata.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|solutionrelative:gunrangemgmtsys\\inventorydata.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|c:\\users\\jbitar\\source\\repos\\workwebapps\\.netwebapp\\gunrangemgmtsys\\views\\home\\rangecompliance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D89E8686-9057-47EE-AD33-2A341DEE9CA2}|GunRangeMgmtSys\\GunRangeMgmtSys.csproj|solutionrelative:gunrangemgmtsys\\views\\home\\rangecompliance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,20 +50,72 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "shooterData.csv",
-              "DocumentMoniker": "C:\\Users\\JBitar\\Desktop\\ASP.NETAppAsset -GunRange\\shooterData.csv",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\ASP.NETAppAsset -GunRange\\shooterData.csv",
-              "ToolTip": "C:\\Users\\JBitar\\Desktop\\ASP.NETAppAsset -GunRange\\shooterData.csv",
-              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\ASP.NETAppAsset -GunRange\\shooterData.csv",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2024-03-28T17:24:04.483Z",
-              "IsPinned": true
+              "DocumentIndex": 2,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "GunRangeMgmtSys\\Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "GunRangeMgmtSys\\Controllers\\InventoryController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAkwGEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T19:55:25.384Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "inventoryData.csv",
+              "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\inventoryData.csv",
+              "RelativeDocumentMoniker": "GunRangeMgmtSys\\inventoryData.csv",
+              "ToolTip": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\inventoryData.csv",
+              "RelativeToolTip": "GunRangeMgmtSys\\inventoryData.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-04-09T19:54:06.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Inventory.cshtml",
+              "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Views\\Home\\Inventory.cshtml",
+              "RelativeDocumentMoniker": "GunRangeMgmtSys\\Views\\Home\\Inventory.cshtml",
+              "ToolTip": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Views\\Home\\Inventory.cshtml",
+              "RelativeToolTip": "GunRangeMgmtSys\\Views\\Home\\Inventory.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T19:38:23.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Invitem.cs",
+              "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Models\\Invitem.cs",
+              "RelativeDocumentMoniker": "GunRangeMgmtSys\\Models\\Invitem.cs",
+              "ToolTip": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Models\\Invitem.cs",
+              "RelativeToolTip": "GunRangeMgmtSys\\Models\\Invitem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T19:50:21.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Shooter.cs",
+              "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Models\\Shooter.cs",
+              "RelativeDocumentMoniker": "GunRangeMgmtSys\\Models\\Shooter.cs",
+              "ToolTip": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Models\\Shooter.cs",
+              "RelativeToolTip": "GunRangeMgmtSys\\Models\\Shooter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T19:50:48.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Rangecomp.cs",
               "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Models\\Rangecomp.cs",
               "RelativeDocumentMoniker": "GunRangeMgmtSys\\Models\\Rangecomp.cs",
@@ -59,39 +128,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Rangecompliance.cshtml",
               "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Views\\Home\\Rangecompliance.cshtml",
               "RelativeDocumentMoniker": "GunRangeMgmtSys\\Views\\Home\\Rangecompliance.cshtml",
               "ToolTip": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Views\\Home\\Rangecompliance.cshtml",
               "RelativeToolTip": "GunRangeMgmtSys\\Views\\Home\\Rangecompliance.cshtml",
-              "ViewState": "AQIAACYAAAAAAAAAAAAswDcAAADzAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAmwDIAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-09T15:54:07.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T15:54:07.588Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RangecomplianceController.cs",
               "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Controllers\\RangecomplianceController.cs",
               "RelativeDocumentMoniker": "GunRangeMgmtSys\\Controllers\\RangecomplianceController.cs",
               "ToolTip": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Controllers\\RangecomplianceController.cs",
               "RelativeToolTip": "GunRangeMgmtSys\\Controllers\\RangecomplianceController.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAqwA0AAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T15:51:17.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "GunRangeMgmtSys\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\JBitar\\source\\repos\\workWebApps\\.NETWebApp\\GunRangeMgmtSys\\Controllers\\HomeController.cs",
               "RelativeToolTip": "GunRangeMgmtSys\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAowDkAAAAJAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAA0wEYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T17:22:14.283Z",
               "EditorCaption": ""

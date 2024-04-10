@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GunRangeMgmtSys")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf3033e332484ff4e4c3a56250b5122158caeb6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f5cb7de195f4b4c6bca25fae0eebf39953dd163")]
 [assembly: System.Reflection.AssemblyProductAttribute("GunRangeMgmtSys")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GunRangeMgmtSys")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
