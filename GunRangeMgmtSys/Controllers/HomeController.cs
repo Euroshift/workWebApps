@@ -28,7 +28,7 @@ namespace GunRangeMgmtSys.Controllers
                 shooters = shooters.Where(s => s.Name.Contains(searchQuery) || s.OfficerId.ToString().Contains(searchQuery)).ToList();
             }
 
-            // Create a new list with only the required fields (Name, OfficerID, LastRangeDate)
+            
             var rangeComplianceData = shooters.Select(s => new Rangecomp
             {
                 Name = s.Name,
