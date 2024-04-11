@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\JBitar\source\repos\workWebApps\.NETWebApp\GunRangeMgmtSys
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/JBitar/source/repos/workWebApps/.NETWebApp/GunRangeMgmtSys/Views/Home/Awards.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBd2FyZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/JBitar/source/repos/workWebApps/.NETWebApp/GunRangeMgmtSys/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,65 @@
+﻿@model List<Award>
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+
+    <title>Marksmanship Awards</title>
+
+</head>
+<body>
+    <div class="content-container">
+        <form asp-controller="Awards" asp-action="UpdateAwards" method="post">
+            <div>
+                <label for="officerId">Officer ID:</label>
+                <input type="text" id="officerId" name="officerId" required>
+            </div>
+            <div>
+                <label for="marksAwards">Marksmanship Awards:</label>
+                <input type="text" id="marksAwards" name="marksAwards" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Officer ID</th>
+                    <th>Marksmanship Award</th>
+                </tr>
+            </thead>
+            <tbody>
+                                @foreach (var shooter in Model)
+                {
+                        <tr>
+                            <td>@shooter.Name</td>
+                            <td>@shooter.OfficerId</td>
+                               <td>@(string.IsNullOrWhiteSpace(shooter.MarksAwards) ? "N/A" : shooter.MarksAwards)</td>
+                        </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+<div class="content-container2">
+
+
+
+    <h2 style="text-align: center; font-family: Arial, sans-serif; font-weight: bold; margin-top:10px; margin-bottom: 5px; font-size: 32px; padding: 10px 10px; border-radius: 5px; box-shadow: 2px 2px 4px rgba(0,0,0,0.1)">Search Marksmanship Awards</h2>
+
+
+
+    @Html.ActionLink("Download CSV", "DownloadCSV", "Home", null, new { @class = "btn btn-primary download-button", @style = "margin-left: 0px;" })
+
+
+
+
+</div>
+
+<!-- build a modal window that pops up with the search results-->

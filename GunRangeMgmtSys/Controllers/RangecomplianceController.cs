@@ -22,6 +22,7 @@ namespace GunRangeMgmtSys.Controllers
             }
             return shooters;
         }
+
         public IActionResult Inventory()
         {
             return View();
@@ -31,7 +32,10 @@ namespace GunRangeMgmtSys.Controllers
             return View();
         }
 
-
+        public IActionResult Awards()
+        {
+            return View();
+        }
         public IActionResult DownloadCSV()
         {
             byte[] fileContents = System.IO.File.ReadAllBytes(_csvFilePath);

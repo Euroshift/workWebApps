@@ -39,6 +39,27 @@ namespace GunRangeMgmtSys.Controllers
             return View(rangeComplianceData);
         }
 
+        public IActionResult Awards(string searchQuery)
+        {
+            var shooters = LoadShootersFromCSV();
+
+            if (!string.IsNullOrEmpty(searchQuery))
+            {
+                shooters = shooters.Where(s => s.Name.Contains(searchQuery) || s.OfficerId.ToString().Contains(searchQuery)).ToList();
+            }
+
+
+            var awardsData = shooters.Select(s => new Award
+            {
+                Name = s.Name,
+                OfficerId = s.OfficerId,
+                MarksAwards = s.MarksAwards
+                //LastRangeDate = s.LastRangeDate
+            }).ToList();
+
+            return View(awardsData);
+        }
+
         [HttpPost]
         public IActionResult AddShooter(Shooter shooter)
         {

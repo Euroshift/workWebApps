@@ -19,7 +19,7 @@ namespace GunRangeMgmtSys.Controllers
             }
 
             return View("~/Views/Home/Inventory.cshtml", invitems);
-        }
+        } 
 
         [HttpPost]
         public IActionResult AddInvitem(Invitem invitem)

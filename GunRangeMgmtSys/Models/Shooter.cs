@@ -17,5 +17,6 @@ namespace GunRangeMgmtSys.Models
         public string OfficerId { get; set; } = string.Empty;
         public string IssuedEquipment { get; set; } = string.Empty;
         public string LastRangeDate { get; set; } = string.Empty;
+        public string MarksAwards { get; set; } = string.Empty;
     }
 }

@@ -1,4 +1,4 @@
-Name,CID,Team,Division,GunInformation,QualificationsTraining,AdditionalTrainingType,AdditionalTrainingHours,IsRetired,IsActive,OfficerId,IssuedEquipment,LastRangeDate
-Tito Ralph,123456,Jollybee,RedRibbon,Glock,"Rifle, CQB",Sidearm,40,False,False,123123,"red dot, extended mag",2023-12-15
-John Doe,4040CECE,Red,Traffic,M1911,Sidearm,Rifle,33,False,False,4411CED,"Red Dot, Pistol grip",2024-02-12
-Jane Smith,DEP140,Blue,Traffic,AR-15,Rifle,N/A,0,False,True,0910OP,Pistol grip,2023-11-10
+Name,CID,Team,Division,GunInformation,QualificationsTraining,AdditionalTrainingType,AdditionalTrainingHours,IsRetired,IsActive,OfficerId,IssuedEquipment,LastRangeDate,MarksAwards
+Tito Ralph,123456,Jollybee,RedRibbon,Glock,"Rifle, CQB",Sidearm,40,FALSE,FALSE,123123,"red dot, extended mag",12/15/2023,
+John Doe,4040CECE,Red,Traffic,M1911,Sidearm,Rifle,33,FALSE,FALSE,4411CED,"Red Dot, Pistol grip",2/12/2024,
+Jane Smith,DEP140,Blue,Traffic,AR-15,Rifle,N/A,0,FALSE,TRUE,0910OP,Pistol grip,11/10/2023,
